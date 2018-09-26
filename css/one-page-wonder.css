@@ -12,7 +12,7 @@ body {
     display: block;
     width: 100%;
     text-align: center;
-    background: url('http://placehold.it/1900x500') no-repeat center center scroll;
+    background: #FF6C5D no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -32,7 +32,12 @@ body {
 .headline h2 {
     font-size: 77px;
     background: #fff;
-    background: rgba(255,255,255,0.9);
+    background: #E8B499;
+}
+
+.headline h3 {
+    background: #fff;
+    background: #FFDCD7;
 }
 
 .featurette-divider {
@@ -175,4 +180,5 @@ footer {
         margin-bottom: 10px;
         margin-left: 0;
     }
+    
 }
